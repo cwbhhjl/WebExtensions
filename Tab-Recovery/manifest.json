@@ -1,0 +1,20 @@
+{
+  "name": "标签恢复",
+  "manifest_version": 2,
+  "version": "1.1",
+  "description": "标签恢复 FireFox 扩展",
+  "permissions": [
+    "tabs",
+    "storage",
+    "<all_urls>"
+  ],
+  "applications": {
+  "gecko": {
+    "id": "{dd3e85c5-5b0c-456d-a8de-1e3b7c7178bf}"
+  }
+},
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
